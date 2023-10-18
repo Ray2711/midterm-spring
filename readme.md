@@ -1,0 +1,1 @@
+i cannot be bothered to write proper readme.

@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://93.170.72.43:5432/springtest
+    username: spring
+    password: 123
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+      show-sql: true
+  main:
+    web-application-type: servlet
